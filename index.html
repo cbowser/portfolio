@@ -3,22 +3,105 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Set a page title -->
-    <title>Starter Project</title>
-    
-    <!-- Site Styles -->
-    <link rel="stylesheet" href="/css/tachyons.min.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <title>Portfolio</title>
+
+    <!-- Site Styles w/ NEGATIVE MARGIN ADD-ON -->
+    <link rel="stylesheet" href="http://unpkg.com/tachyons-negative-margins@1.0.0/css/tachyons-negative-margins.min.css" />
+    <link rel="stylesheet" href="tachyons.min.css">
+    <link rel="stylesheet" href="main.css">
   </head>
-  <body>
-    
+  <body class="first sans serif pa2">
+
     <!-- Start coding here! -->
-    <h1>Hello!</h1>
-    <p>If you haven't already, check out README.md.</p>
-    
+
+<!--HEADER-->
+<header class="courier pb2 flex flex-column flex-row-ns">
+  <div class="pl5-ns w-50-m w-50-l logo tc tl-ns"> <img class="" src="images/logo7.png" alt="cb logo"></div>
+  <div class="pa3 tc w-50-m  w-50-l flex justify-center justify-end-m justify-end-l">
+    <a class="ttu b home black link ph1 ph2-m ph3-l f6 f5-l hover-white" href="index.html">home</a>
+    <a class="ttu b home black link ph1 ph2-m ph3-l f6 f5-l hover-white" href="project.html">projects</a>
+    <a class="ttu b home black link ph1 ph2-m ph3-l f6 f5-l hover-white" href="about.html">about</a>
+    <a class="ttu b home black link ph1 ph2-m ph3-l f6 f5-l hover-white" href="contact.html">contact</a>
+  </div>
+</header>
+
+<!--pa3 w-50-m w-50-l tc flex justify-end-m justify-end-l-->
+
+<!--small title-->
+<div class="flex-column">
+          <div class="w-75-ns tc tl-m tl-l ba bw0 bw2-m bw2-l pv2 subtitle">
+          <p class="courier ph4 ph5-m ph6-l ma0 white f6 f5-l">graphic designer, lover of food &amp; pugs </p>
+          </div>
+    </div>
+
+<!--FIRST SECTION-->
+
+    <div class="flex flex-column-reverse flex-row-ns pt3">
+        <div class="w-50-ns flex-column">
+            <div class="ph2 ph4-m ph5-l pt5-l avenir title b"><p class="f2 f1-m f-headline-l mt4 lh-solid">Casey Bowser</p></div>
+            <div class="ph2 ph4-m ph6-l courier f7"><h2 class="ttu tracked header">design</h2></div>
+            <div class="ph2 ph4-m ph6-l avenir"><p class="f6 f5-m f4-l">This is my porfolio with all of the things that I have created and all of my aspirations and dreams. Please feel free to contact me to inquire about my freelance work. </p></div>
+        </div>
+        <div class="w-50-l w-50-m mw-100 nl4-l nt3 nt1-l nt1-m"><img class="shadow" src="images/girl.svg" alt="drawing"></div>
+    </div>
+
+
+
+
+<!--SECOND SECTION-->
+<div class="flex flex-column flex-row-ns">
+
+    <div class="ma2 mt5-ns w-50-l w-50-m mw-100"><img class="shadow nt5-l nr5-l" src="images/pug3.svg" alt="drawing"></div>
+
+    <div class="w-50-l w-50-m flex-column">
+      <div class="ph2 ph4-m ph5-l avenir title b"><p class="f2 f1-m f-headline-l mt4 lh-solid">Casey Bowser</p></div>
+      <div class="ph2 ph4-m ph6-l courier f7"><h2 class="ttu tracked header">create</h2></div>
+      <div class="ph2 ph4-m ph6-l avenir"><p class="f6 f5-m f4-l">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+</div>
+
+</div>
+
+
+
+<div class="pa5">
+  <a name="projects"></a>
+<h2 class="courier f4 ttu tracked header">Projects</h2>
+<div class="flex-column">
+
+  <div class="flex flex-column flex-row-ns">
+  <div class="pa1 image "><a class="" href="project.html"><img class="shadow link dim" src="images/pasta.jpg" alt="pasta project poster"></a></div>
+  <div class="pa1 "><a class="" href="project.html#projecttwo"><img class="shadow link dim" src="images/fall2.jpg" alt="photo of fall"></a></div>
+  <div class="pa1 "><a class="" href="project.html#projectthree"><img class="shadow link dim" src="images/fall3.jpg" alt=""></a></div>
+  </div>
+
+</div>
+</div>
+
+
+
+
+<!--Second Flexbox -->
+
+
+
+
+<!--FOOTER-->
+
+<footer>
+  <div class="courier pb4 flex">
+  <div class="pl3 w-50 logo"><img src="images/logo7.png" alt="cb logo"></div>
+  <div class="pa3 w-50 flex justify-end">
+    <a class="ttu b home black link ph3 f5 dim" href="index.html">home</a>
+    <a class="ttu b home black link ph3 f5 dim" href="#projects">projects</a>
+    <a class="ttu b home black link ph3 f5 dim" href="about.html">about</a>
+    <a class="ttu b home black link ph3 f5 dim" href="contact.html">contact</a>
+  </div>
+</div>
+</footer>
     <!-- Site JavaScript -->
-    <script src="/javascript/toggleClass.js" charset="utf-8"></script>
-    <script src="/javascript/main.js" charset="utf-8"></script>
+    <script src="toggleClass.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

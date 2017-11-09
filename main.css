@@ -1,0 +1,44 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+/*BACKGROUND IMAGES*/
+body, .first {background-image: url("images/pink5.svg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}
+
+.second {background-image: url(images/blue2.svg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}
+
+
+/*HEADER COLRS*/
+.subtitle {
+  border: solid 4px rgb(237,142,153);
+}
+
+@media screen and (max-width: 500px) {
+  .subtitle {
+    border:solid 0px rgb(237,142,153);
+  }
+}
+
+
+.header {color: rgb(206,101,119)}
+
+.footer {background-color:rgb(206,101,119) }
+
+/*BOX-SHADOWS*/
+.shadow {
+box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.20);
+}
+
+.blue {
+  background-color:rgb(114, 185, 214);
+}
+
+.assignment {
+  color:rgb(53, 146, 175);
+}
